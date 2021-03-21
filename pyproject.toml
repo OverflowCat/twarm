@@ -8,6 +8,7 @@ authors = ["Your Name <OverflowCat@gmail.com>"]
 python = "^3.8"
 Telethon = "^1.21.1"
 python-dotenv = "^0.15.0"
+tinydb = "^4.4.0"
 [tool.poetry.dev-dependencies]
 
 [build-system]

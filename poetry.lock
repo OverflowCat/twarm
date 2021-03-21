@@ -51,8 +51,16 @@ rsa = "*"
 [package.extras]
 cryptg = ["cryptg"]
 
+[[package]]
+category = "main"
+description = "TinyDB is a tiny, document oriented database optimized for your happiness :)"
+name = "tinydb"
+optional = false
+python-versions = ">=3.5,<4.0"
+version = "4.4.0"
+
 [metadata]
-content-hash = "22211ee8a0a5caa2ef8f04aeddb4bc034cfb50a05389908425402619a74d9a86"
+content-hash = "39c4aa954f26d6362030fd2e161f7024e4f51f13612e5e46afc6706f7ab8bc63"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -85,4 +93,8 @@ rsa = [
 telethon = [
     {file = "Telethon-1.21.1-py3-none-any.whl", hash = "sha256:df643fc988708ad16d16de834ffa12ad4bfa3f956473d835c8158e2283b885ea"},
     {file = "Telethon-1.21.1.tar.gz", hash = "sha256:993c837ef745addf972a27d7bfba0ce518a2863d1a50e0737255b764d23e0ef2"},
+]
+tinydb = [
+    {file = "tinydb-4.4.0-py3-none-any.whl", hash = "sha256:30b0f718ebb288e42d2f69f3e1b18928739f25153e6b5308a234e95c1673de71"},
+    {file = "tinydb-4.4.0.tar.gz", hash = "sha256:d57c29524ecacc081ebc24f96e0d787bba11dc20d52634a32a709b878be3545a"},
 ]

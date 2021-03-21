@@ -8,12 +8,14 @@ client = foursquare.Foursquare(client_id=os.environ['ID_4SQ'], client_secret=os.
 # auth_uri = client.oauth.auth_url()
 client.set_access_token(os.environ['ACC_4SQ'])
 
+locations = {
+	
+}
 def add(venueId: str, shout: str, private: bool = False, tweet: bool = False):
 	res = client.checkins.add(
-		params={
-			"venueId": venueId,
-			"shout": shout + " (Checked in via Twarm, a Telegram-Swarm bot.)",
-			"broadcast": "public"
-			}
-	)
+	  params={
+	    "venueId": venueId,
+	    "shout": shout + " (Checked in via Twarm, a Telegram-Swarm bot.)",
+	    "broadcast": "public"
+	  })
 	return res

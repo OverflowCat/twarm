@@ -1,1 +1,7 @@
 .env
+__pycache__
+bot.session
+poetry.lock
+locations.json
+*.pyc
+*.*.pyc
